@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = EcommStart.Shared
-build_property.ProjectDir = C:\Users\DEVHOMOLOG\source\repos\EcommStart\EcommStart\Shared\
+build_property.ProjectDir = C:\Users\DEVHOMOLOG\Desktop\_source\EcommStart\EcommStart\Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

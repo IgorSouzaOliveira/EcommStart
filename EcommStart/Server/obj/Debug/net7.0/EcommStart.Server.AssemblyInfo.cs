@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcommStart.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de3ecd5fa8d17a99b71117a06a4439456152031")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcommStart.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcommStart.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

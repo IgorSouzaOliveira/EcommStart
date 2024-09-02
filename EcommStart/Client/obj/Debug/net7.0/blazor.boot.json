@@ -1,7 +1,7 @@
 {
   "entryAssembly": "EcommStart.Client",
   "resources": {
-    "hash": "sha256-+SNLFVoP3dUksL6CZWehlw+8BYTnSlzp51t2QonxsNg=",
+    "hash": "sha256-mMRjp0N0FXfKkiTenStQleEYsNhF7Zv04TAgiZ0wrGw=",
     "runtime": {
       "dotnet.7.0.20.hqs5bjbv9e.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
@@ -202,12 +202,12 @@
       "mscorlib.dll": "sha256-HYyp9hO+GKFyupcEiY1PxtBBXbHzefsO3Q8RiQTaNCA=",
       "netstandard.dll": "sha256-N5CcC3sLzGBesbmeJAp5bwxABN9u7SwkIO5qfFjzoik=",
       "System.Private.CoreLib.dll": "sha256-bJS1DJmhjP7PvegYG+Z8O9EDtRY78HKinA3LUMVLlSQ=",
-      "EcommStart.Shared.dll": "sha256-OSR7+87YZ4Jwnc5vt6yRPWnFJGYVwDoFSsB8ZYuOvL0=",
-      "EcommStart.Client.dll": "sha256-AmFjzjrBpJuey8oTZBnfPPgD/fFjPcp39dlkxnjMWsw="
+      "EcommStart.Shared.dll": "sha256-e1WPX2nhcroXjlb9if1cQpLVuPFU38DqmnrW6uWHk7Y=",
+      "EcommStart.Client.dll": "sha256-bS/M0SweMtw9CcGPurO04MyATgoTPsTuTbrR/8e86rY="
     },
     "pdb": {
-      "EcommStart.Shared.pdb": "sha256-t7vLJiW84F5iBNn3zWXaj2DE86ypYNVFEuz5sNDBGGE=",
-      "EcommStart.Client.pdb": "sha256-WrRck3gEtP1b5KP/vMDxBa19B5SPkB74YP/9TWwL9OE="
+      "EcommStart.Shared.pdb": "sha256-uaVHHlKznbI3OVXr84VylynMc0kSiz3QhbdFMJTNIOw=",
+      "EcommStart.Client.pdb": "sha256-fBm2mc2jgrMH4GycurftSz8kxxq1Wv3nkzUe9JENF4A="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

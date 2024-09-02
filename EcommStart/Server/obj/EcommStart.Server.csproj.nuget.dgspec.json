@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj": {}
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj": {
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj",
+        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj",
         "projectName": "EcommStart.Client",
-        "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj",
+        "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj",
         "packagesPath": "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\obj\\",
+        "outputPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DEVHOMOLOG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
-                "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj"
+              "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
+                "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj": {
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
+        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
         "projectName": "EcommStart.Server",
-        "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
+        "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
         "packagesPath": "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\obj\\",
+        "outputPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DEVHOMOLOG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,11 +128,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj": {
-                "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj"
+              "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj": {
+                "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\EcommStart.Client.csproj"
               },
-              "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
-                "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj"
+              "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
+                "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj"
               }
             }
           }
@@ -180,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
         "projectName": "EcommStart.Shared",
-        "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
+        "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
         "packagesPath": "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DEVHOMOLOG\\AppData\\Roaming\\NuGet\\NuGet.Config",

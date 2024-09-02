@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {}
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
+    "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
         "projectName": "EcommStart.Shared",
-        "projectPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
+        "projectPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\EcommStart.Shared.csproj",
         "packagesPath": "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DEVHOMOLOG\\AppData\\Roaming\\NuGet\\NuGet.Config",

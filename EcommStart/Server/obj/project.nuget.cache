@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DtvJDopA7y0=",
+  "dgSpecHash": "YoPEk+hMUiA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
+  "projectFilePath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Server\\EcommStart.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.18\\microsoft.aspnetcore.authorization.7.0.18.nupkg.sha512",
     "C:\\Users\\DEVHOMOLOG\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.18\\microsoft.aspnetcore.components.7.0.18.nupkg.sha512",

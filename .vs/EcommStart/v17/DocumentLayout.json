@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\",
+  "WorkspaceRootPath": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B1A1395-CD76-467F-8093-CB5D3F3F3867}|EcommStart\\Client\\EcommStart.Client.csproj|c:\\users\\devhomolog\\source\\repos\\ecommstart\\ecommstart\\client\\pages\\produtosalterar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2B1A1395-CD76-467F-8093-CB5D3F3F3867}|EcommStart\\Client\\EcommStart.Client.csproj|c:\\users\\devhomolog\\desktop\\_source\\ecommstart\\ecommstart\\client\\pages\\produtosalterar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B1A1395-CD76-467F-8093-CB5D3F3F3867}|EcommStart\\Client\\EcommStart.Client.csproj|solutionrelative:ecommstart\\client\\pages\\produtosalterar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E221A4C3-60A9-410D-BA2B-864B389F306C}|EcommStart\\Shared\\EcommStart.Shared.csproj|c:\\users\\devhomolog\\source\\repos\\ecommstart\\ecommstart\\shared\\models\\selectlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E221A4C3-60A9-410D-BA2B-864B389F306C}|EcommStart\\Shared\\EcommStart.Shared.csproj|c:\\users\\devhomolog\\desktop\\_source\\ecommstart\\ecommstart\\shared\\models\\selectlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E221A4C3-60A9-410D-BA2B-864B389F306C}|EcommStart\\Shared\\EcommStart.Shared.csproj|solutionrelative:ecommstart\\shared\\models\\selectlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,24 +28,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SelectListItem.cs",
-              "DocumentMoniker": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\Models\\SelectListItem.cs",
+              "DocumentMoniker": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\Models\\SelectListItem.cs",
               "RelativeDocumentMoniker": "EcommStart\\Shared\\Models\\SelectListItem.cs",
-              "ToolTip": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Shared\\Models\\SelectListItem.cs",
+              "ToolTip": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Shared\\Models\\SelectListItem.cs",
               "RelativeToolTip": "EcommStart\\Shared\\Models\\SelectListItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T02:52:23.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T02:52:23.653Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProdutosAlterar.razor",
-              "DocumentMoniker": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\Pages\\ProdutosAlterar.razor",
+              "DocumentMoniker": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\Pages\\ProdutosAlterar.razor",
               "RelativeDocumentMoniker": "EcommStart\\Client\\Pages\\ProdutosAlterar.razor",
-              "ToolTip": "C:\\Users\\DEVHOMOLOG\\source\\repos\\EcommStart\\EcommStart\\Client\\Pages\\ProdutosAlterar.razor*",
-              "RelativeToolTip": "EcommStart\\Client\\Pages\\ProdutosAlterar.razor*",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DEVHOMOLOG\\Desktop\\_source\\EcommStart\\EcommStart\\Client\\Pages\\ProdutosAlterar.razor",
+              "RelativeToolTip": "EcommStart\\Client\\Pages\\ProdutosAlterar.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-01T22:47:19.808Z",
               "EditorCaption": ""

@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -841,7 +841,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
+      "hash": "sha256-3XNiRpem+JrGtB9MODF7BV5H5o\/dxTHXUtiEN+AVTOM=",
       "url": "_framework\/dotnet.7.0.20.hqs5bjbv9e.js"
     },
     {
@@ -865,25 +865,25 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-OSR7+87YZ4Jwnc5vt6yRPWnFJGYVwDoFSsB8ZYuOvL0=",
+      "hash": "sha256-e1WPX2nhcroXjlb9if1cQpLVuPFU38DqmnrW6uWHk7Y=",
       "url": "_framework\/EcommStart.Shared.dll"
     },
     {
-      "hash": "sha256-t7vLJiW84F5iBNn3zWXaj2DE86ypYNVFEuz5sNDBGGE=",
+      "hash": "sha256-uaVHHlKznbI3OVXr84VylynMc0kSiz3QhbdFMJTNIOw=",
       "url": "_framework\/EcommStart.Shared.pdb"
     },
     {
-      "hash": "sha256-4\/T\/NqltwGhxSCSUMQ9XAKUgHmLU1beX8TF6by30ZzI=",
+      "hash": "sha256-bS\/M0SweMtw9CcGPurO04MyATgoTPsTuTbrR\/8e86rY=",
       "url": "_framework\/EcommStart.Client.dll"
     },
     {
-      "hash": "sha256-aQ1OL56VQScwnAys6mFRhwUTXEPkR5fSHMgYczPpfaQ=",
+      "hash": "sha256-fBm2mc2jgrMH4GycurftSz8kxxq1Wv3nkzUe9JENF4A=",
       "url": "_framework\/EcommStart.Client.pdb"
     },
     {
-      "hash": "sha256-7aPghoddPPFRZ6AO+0DrQnOrGxlzNzhxV5fiTyT+\/gE=",
+      "hash": "sha256-TaFDpR2\/VkhyT0AiZ1nPI\/frceuW70lLWqDQjhTwuLc=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "Iw9WzXSA"
+  "version": "xBIaWYFB"
 };
