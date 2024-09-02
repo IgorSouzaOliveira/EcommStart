@@ -1,0 +1,39 @@
+﻿@page "/ProdutoPorId"
+@using EcommStart.Shared.Models
+@inject HttpClient httpClient
+
+<h1>Consulta Produto por ID</h1>
+
+<label>
+    Informe um ID:
+    <input class="form-control" @bind-value=produtoId />
+</label>
+
+<button @onclick="ConsumirAPI" class="btn btn-primary">
+    Consumir API
+</button>
+
+<div>
+    @p.Id <br />
+    @p.Nome <br />
+    @p.Preco <br />
+</div>
+
+@code {
+    int produtoId;
+    Produto? p = new();
+    //https://dummyjson.com/products/{id}
+
+
+    private async Task ConsumirAPI()
+    {
+        var response = await httpClient.GetAsync($"https://dummyjson.com/products/{produtoId}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            p = await response.Content.ReadFromJsonAsync<Produto>();
+        }
+
+    }
+
+}

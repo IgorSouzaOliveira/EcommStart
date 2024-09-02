@@ -1,0 +1,121 @@
+﻿@page "/ProdutosAlterar"
+@inject HttpClient httpClient
+@using EcommStart.Shared.Models
+
+<h1>Alterar Produtos</h1>
+
+<div class="shadow p-3">
+    <label>
+        Id do produto:
+        <InputNumber class="form-control" @bind-Value="produtoId"></InputNumber>
+    </label>
+    <div class="mt-2">
+        <button class="btn btn-primary" @onclick="Consultar">Consultar</button>
+    </div>
+    <hr />
+
+   @* Definir tamanho de campo personalizado e chamar na class da div ou do componente razor *@
+    <style>
+        .custom-width {
+            width: 150px; /* Ajuste o valor conforme necessário */
+        }
+    </style>
+
+    <EditForm Model="produto" OnValidSubmit="Alterar" class="d-flex flex-column">
+        <label>
+            Nome:
+            <InputText class="form-control" @bind-Value="produto.Nome"></InputText>
+        </label>
+        <label class="mt-2">
+            Preço:
+            <InputNumber class="form-control" @bind-Value="produto.Preco"></InputNumber>
+        </label>
+        <label class="mt-2">
+            Quantidade:
+            <InputNumber class="form-control" @bind-Value="produto.Quantidade"></InputNumber>
+        </label>
+        <label class="mt-2">
+            Imagem:
+            <InputText class="form-control" @bind-Value="produto.Imagem"></InputText>
+        </label>
+        <label class="mt-2">
+            Selecione um preço:
+            <InputSelect class="form-control custom-width" @bind-Value="selectedOption">
+                @foreach (var option in options)
+                {
+                    <option value="@option.Value">@option.Text</option>
+                }
+            </InputSelect>
+            
+
+        </label>
+        <div class="mt-2">
+            <button class="btn btn-primary" type="submit">Alterar</button>
+        </div>
+    </EditForm>
+    <div class="text-center p-3 text-danger">
+        @msg
+    </div>
+</div>
+
+
+
+@code {
+
+    int produtoId;
+    string msg = string.Empty;
+    Produto produto = new();
+
+    protected async Task Consultar()
+    {
+        string url = $"api/produtos/consultar/{produtoId}";
+
+        HttpResponseMessage responseMessage = await httpClient.GetAsync(url);
+
+        if (!responseMessage.IsSuccessStatusCode)
+        {
+            msg = await responseMessage.Content.ReadAsStringAsync();
+            produto = new();
+        }
+        else
+        {
+            produto = await responseMessage.Content.ReadFromJsonAsync<Produto>();
+
+        }
+    }
+
+    protected async Task Alterar()
+    {
+        if (produto == null)
+        {
+            msg = "Nenhum produto na lista";
+        }
+
+        string url = "api/produtos/alterar";
+
+        HttpResponseMessage responseMessage = await httpClient.PutAsJsonAsync<Produto>(url, produto);
+
+        if (!responseMessage.IsSuccessStatusCode)
+        {
+            msg = await responseMessage.Content.ReadAsStringAsync();
+        }
+        else
+        {
+            msg = "Produto atualizado com sucesso.";
+        }
+
+
+
+    }
+
+    private List<SelectListItem> options = new List<SelectListItem>
+    {
+        new SelectListItem { Value = "1", Text = "Option 1" },
+        new SelectListItem { Value = "2", Text = "Option 2" },
+        new SelectListItem { Value = "3", Text = "Option 3" }
+
+    };
+
+    private string selectedOption = "1"; // Valor inicial selecionado
+
+}

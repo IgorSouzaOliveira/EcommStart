@@ -1,0 +1,75 @@
+﻿@page "/ProdutosListar"
+@using EcommStart.Shared.Models
+@inject HttpClient httpClient
+
+<h1>Listar Produtos</h1>
+
+<label>Procurar por nome:</label>
+<input class="form-control" @bind-value="produtoNome" />
+<div class="mt-2">
+    <button class="btn btn-primary" @onclick=ListarProduto>Listar Produtos</button>
+</div>
+
+
+<div class="text-center p-3">
+    <table class="table">
+        <tr>
+            <td class="border p-1">#</td>
+            <td class="border p-1">Nome</td>
+            <td class="border p-1">Preco</td>
+            <td class="border p-1">Quantidade</td>
+            <td class="border p-1">Imagem</td>
+        </tr>
+        @if (produtos != null)
+        {
+            @foreach (Produto p in produtos)
+            {
+                <tr>
+                    <td class="border p-1">@p.Id</td>
+                    <td class="border p-1">@p.Nome</td>
+                    <td class="border p-1">@p.Preco.ToString("c")</td>
+                    <td class="border p-1">@p.Quantidade</td>
+                    <td class="border p-1">
+                        <img src="@p.Imagem" class="w-25" alt="Imagem do produto"/>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+</div>
+
+<div class="text-center p-3 text-danger">
+    @msg
+</div>
+
+
+
+@code {
+
+    private List<Produto>? produtos = new();    
+    string msg = string.Empty;
+    string produtoNome = string.Empty;
+
+    string url = "api/produtos/listar";
+
+    private async Task ListarProduto()
+    {
+        if (!string.IsNullOrEmpty(produtoNome))
+        {
+            url = $"api/produtos/listar?nome={produtoNome}";
+        }
+
+        HttpResponseMessage response = await httpClient.GetAsync(url);
+
+        if (response.IsSuccessStatusCode)
+        {
+            produtos = await response.Content.ReadFromJsonAsync<List<Produto>>();
+        }
+        else
+        {
+            msg = await response.Content.ReadAsStringAsync();
+        }
+
+    }
+
+}
